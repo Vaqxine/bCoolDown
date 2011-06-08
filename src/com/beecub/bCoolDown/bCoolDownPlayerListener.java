@@ -35,7 +35,7 @@ public class bCoolDownPlayerListener extends PlayerListener {
         
         if(on) {
             String pre;
-            int i = message.indexOf(' ');
+            int i = message.indexOf('|');
             if(i < 0) { i = message.length(); }
             
             pre = (String) message.subSequence(0, i);
